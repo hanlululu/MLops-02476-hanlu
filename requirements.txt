@@ -1,0 +1,17 @@
+# local package
+-e .
+
+# external requirements
+scikit-learn
+click
+Sphinx
+coverage
+awscli
+flake8
+python-dotenv>=0.5.1
+torch 
+numpy 
+torchvision
+pathlib
+tqdm
+matplotlib
