@@ -14,4 +14,3 @@ numpy
 torchvision
 tqdm
 matplotlib
-dotenv
