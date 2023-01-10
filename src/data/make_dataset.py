@@ -34,7 +34,7 @@ class CorruptMnist(Dataset):
             labels = []
 
             # Loop through each of the files to extract the data
-            for i in range(0,5):
+            for i in range(0,8):
                 with np.load(self.in_folder+'/train_' +str(i)+'.npz') as f:
                     images_tensor = torch.tensor(f['images'])
                     mean = torch.mean(images_tensor,[1,2])
